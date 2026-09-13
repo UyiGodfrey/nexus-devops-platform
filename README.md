@@ -38,3 +38,7 @@ Nexus DevOps Platform is an end-to-end DevOps project designed to demonstrate th
 ## Development Workflow
 
 Changes to the Nexus DevOps Platform are developed on feature branches, reviewed through pull requests, and merged into the main branch after validation.
+
+## Development Workflow
+
+Changes to the Nexus DevOps Platform are developed on feature branches, reviewed through pull requests, and merged into the main branch after validation.

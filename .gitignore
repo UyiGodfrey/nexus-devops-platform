@@ -1,1 +1,8 @@
 node_modules/
+
+# Terraform local/generated files
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+crash.log
+*.tfplan

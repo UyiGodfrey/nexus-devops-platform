@@ -1,0 +1,31 @@
+---
+- name: Configure Nexus DevOps local environment
+  hosts: local
+  become: true
+
+  tasks:
+    - name: Ensure curl is installed
+      apt:
+        name: curl
+        state: present
+        update_cache: true
+
+    - name: Ensure git is installed
+      apt:
+        name: git
+        state: present
+
+    - name: Create Nexus configuration directory
+      file:
+        path: /opt/nexus
+        state: directory
+        mode: '0755'
+
+    - name: Create Nexus environment file
+      copy:
+        dest: /opt/nexus/environment.conf
+        content: |
+          APP_NAME=Nexus DevOps Platform
+          ENVIRONMENT=SIWES
+          MANAGED_BY=Ansible
+        mode: '0644'

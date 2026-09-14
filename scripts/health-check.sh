@@ -1,8 +1,8 @@
 #!/bin/bash
 
-URL="http://localhost:3000/health"
+URL="${1:-http://localhost:3000/health}"
 
-echo "Checking Nexus API health..."
+echo "Checking Nexus API health at $URL..."
 
 if curl --fail --silent "$URL" > /dev/null; then
     echo "SUCCESS: Nexus API is healthy."

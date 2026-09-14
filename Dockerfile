@@ -10,6 +10,8 @@ COPY app/ ./
 
 FROM node:24-alpine AS runtime
 
+RUN apk upgrade --no-cache
+
 WORKDIR /app
 
 COPY --from=builder /app ./

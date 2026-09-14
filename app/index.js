@@ -27,6 +27,10 @@ app.get('/api/info', (req, res) => {
   });
 });
 
-app.listen(PORT, () => {
-  console.log(`Nexus API running on port ${PORT}`);
-});
+if (require.main === module) {
+  app.listen(PORT, () => {
+    console.log(`Nexus API running on port ${PORT}`);
+  });
+}
+
+module.exports = app;

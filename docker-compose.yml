@@ -1,0 +1,13 @@
+services:
+  nexus-api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: nexus-api:v1
+    container_name: nexus-api
+    ports:
+      - "3000:3000"
+    environment:
+      NODE_ENV: production
+      PORT: 3000
+    restart: unless-stopped

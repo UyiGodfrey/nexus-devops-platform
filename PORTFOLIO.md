@@ -24,6 +24,8 @@ Welcome! This is a curated guide to my hands-on engineering projects. Each proje
 - **Operate:** define metrics, reliability goals and troubleshooting evidence.
 - **Document:** record what worked, what was simulated, and what remains to be done.
 
+For concrete reproduction steps and limits in the main project, see the [evidence guide](docs/PROJECT_EVIDENCE.md).
+
 ## Recommended review route
 
 1. Start with [Nexus DevOps Platform](https://github.com/UyiGodfrey/nexus-devops-platform) to see the main delivery workflow.
@@ -31,6 +33,8 @@ Welcome! This is a curated guide to my hands-on engineering projects. Each proje
 3. Explore [Nexus SRE Platform](https://github.com/UyiGodfrey/nexus-sre-platform) for service reliability and monitoring concepts.
 4. Review [Nexus GitOps](https://github.com/UyiGodfrey/nexus-gitops) for configuration drift and reconciliation fundamentals.
 5. Use [CI Demo Project](https://github.com/UyiGodfrey/ci-demo-project) for a smaller CI-focused example.
+
+[Browse the categorized supporting-project catalog](docs/SUPPORTING_REPOSITORIES.md) for additional experiments, coursework and CI/CD labs.
 
 ## Other repositories
 

@@ -4,6 +4,13 @@
 
 An end-to-end learning project for building and validating a cloud-native delivery path around a small Node.js API.
 
+## Portfolio and project evidence
+
+- **[Featured engineering portfolio](PORTFOLIO.md)** — my strongest projects and their actual scope.
+- **[Evidence and reproducibility](docs/PROJECT_EVIDENCE.md)** — what is runnable locally, which files are examples, and how to verify results.
+- **[Supporting repository catalog](docs/SUPPORTING_REPOSITORIES.md)** — grouped experiments and practice projects.
+- **[GitHub profile README draft](docs/PROFILE_README_TEMPLATE.md)** — ready for publication when my GitHub profile repository is created.
+
 ## What is implemented
 
 - Express API with `/`, `/health`, and `/api/info` endpoints

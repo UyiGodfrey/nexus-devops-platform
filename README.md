@@ -1,5 +1,7 @@
 # Nexus DevOps Platform
 
+> **New here?** Explore my [curated Cloud & DevOps engineering portfolio](PORTFOLIO.md) for the strongest projects, evidence, and recommended reading order.
+
 An end-to-end learning project for building and validating a cloud-native delivery path around a small Node.js API.
 
 ## What is implemented
